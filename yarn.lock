@@ -7772,13 +7772,13 @@
     "strip-ansi" "^6.0.1"
     "text-table" "^0.2.0"
 
-"react-dom@^16.8.0  || ^17.0.0 || ^18.0.0", "react-dom@^18.0.0", "react-dom@^18.2.0":
-  "integrity" "sha512-6IMTriUmvsjHUjNtEDudZfuDQUoWXVxKHhlEGSk81n4YFS+r/Kl99wXiwlVXtPBtJenozv2P+hxDsw9eA7Xo6g=="
-  "resolved" "https://registry.npmjs.org/react-dom/-/react-dom-18.2.0.tgz"
-  "version" "18.2.0"
+"react-dom@^16.8.0  || ^17.0.0 || ^18.0.0", "react-dom@^18.0.0", "react-dom@^18.3.0-canary-b8e47d988-20231023":
+  "integrity" "sha512-wD3WffeJaeXkLdv4+Pyrpt4VH0sKkQxz+qvhu065qs+VdOxcC4WO+ZnVTQErHBxKp94vjW9s+EiySeFolbKrQw=="
+  "resolved" "https://registry.npmjs.org/react-dom/-/react-dom-18.3.0-canary-b8e47d988-20231023.tgz"
+  "version" "18.3.0-canary-b8e47d988-20231023"
   dependencies:
     "loose-envify" "^1.1.0"
-    "scheduler" "^0.23.0"
+    "scheduler" "0.24.0-canary-b8e47d988-20231023"
 
 "react-error-overlay@^6.0.11":
   "integrity" "sha512-/6UZ2qgEyH2aqzYZgQPxEnz33NJ2gNsnHA2o5+o4wW9bLM/JYQitNP9xPhsXwC08hMMovfGe/8retsdDsczPRg=="
@@ -7860,10 +7860,10 @@
   optionalDependencies:
     "fsevents" "^2.3.2"
 
-"react@^16.8.0  || ^17.0.0 || ^18.0.0", "react@^18.0.0", "react@^18.2.0", "react@>= 16":
-  "integrity" "sha512-/3IjMdb2L9QbBdWiW5e3P2/npwMBaU9mHCSCUzNln0ZCYbcfTsGbTJrU/kGemdH2IWmB2ioZ+zkxtmq6g09fGQ=="
-  "resolved" "https://registry.npmjs.org/react/-/react-18.2.0.tgz"
-  "version" "18.2.0"
+"react@^16.8.0  || ^17.0.0 || ^18.0.0", "react@^18.0.0", "react@^18.3.0-next-1308e49a6-20230330", "react@>= 16", "react@18.3.0-canary-b8e47d988-20231023":
+  "integrity" "sha512-kOdZHskH1EBCUvnOVHpyq5r88EOSFGwz+qqH0kElH6bbWHZhJRykGf8tHB7ci0m/oU5cfqGut4K04fqbSgVGNA=="
+  "resolved" "https://registry.npmjs.org/react/-/react-18.3.0-next-1308e49a6-20230330.tgz"
+  "version" "18.3.0-next-1308e49a6-20230330"
   dependencies:
     "loose-envify" "^1.1.0"
 
@@ -8179,10 +8179,10 @@
   dependencies:
     "xmlchars" "^2.2.0"
 
-"scheduler@^0.23.0":
-  "integrity" "sha512-CtuThmgHNg7zIZWAXi3AsyIzA3n4xx7aNyjwC2VJldO2LMVDhFK+63xGqq6CsJH4rTAt6/M+N4GhZiDYPx9eUw=="
-  "resolved" "https://registry.npmjs.org/scheduler/-/scheduler-0.23.0.tgz"
-  "version" "0.23.0"
+"scheduler@0.24.0-canary-b8e47d988-20231023":
+  "integrity" "sha512-mHdfBGfhlU1Ev7fFwRcrBwlcpBUnsCXoI7MSBK38R6XAbj5MzZIAFVdSB1hfdAfh9ePxKg3AA0quUpT8oqKdBA=="
+  "resolved" "https://registry.npmjs.org/scheduler/-/scheduler-0.24.0-canary-b8e47d988-20231023.tgz"
+  "version" "0.24.0-canary-b8e47d988-20231023"
   dependencies:
     "loose-envify" "^1.1.0"
 
