@@ -7,6 +7,7 @@ import UseCopyToClipboard from './components/useCopyToClipboard/UseCopyToClipboa
 import UseCountDown from './components/useCountDown/UseCountDown';
 import CustomUseBoolean from './components/useBoolean/CustomUseBoolean';
 import CustomUseClickAnyWhere from './components/useClickAnyWhere/CustomUseClickAnyWhere';
+import CustomUseCopyClipboard from './components/useCopyToClipboard/CustomUseCopyClipboard';
 
 function App() {
   return (
@@ -17,10 +18,11 @@ function App() {
 
       {/* UseClickAnyWhere */}
       {/* <UseClickAnyWhere /> */}
-      <CustomUseClickAnyWhere />
+      {/* <CustomUseClickAnyWhere /> */}
 
       {/* UseCopyToClipboard */}
       {/* <UseCopyToClipboard /> */}
+      <CustomUseCopyClipboard />
 
       {/* UseCountDown */}
       {/* <UseCountDown /> */}
