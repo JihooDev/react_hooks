@@ -8,6 +8,7 @@ import UseCountDown from './components/useCountDown/UseCountDown';
 import CustomUseBoolean from './components/useBoolean/CustomUseBoolean';
 import CustomUseClickAnyWhere from './components/useClickAnyWhere/CustomUseClickAnyWhere';
 import CustomUseCopyClipboard from './components/useCopyToClipboard/CustomUseCopyClipboard';
+import CustomUseCountDown from './components/useCountDown/CustomUseCountDown';
 
 function App() {
   return (
@@ -22,10 +23,11 @@ function App() {
 
       {/* UseCopyToClipboard */}
       {/* <UseCopyToClipboard /> */}
-      <CustomUseCopyClipboard />
+      {/* <CustomUseCopyClipboard /> */}
 
       {/* UseCountDown */}
       {/* <UseCountDown /> */}
+      <CustomUseCountDown />
     </div>
   );
 }
