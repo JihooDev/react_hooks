@@ -5,12 +5,14 @@ import UseBoolean from './components/useBoolean/UseBoolean';
 import UseClickAnyWhere from './components/useClickAnyWhere/UseClickAnyWhere';
 import UseCopyToClipboard from './components/useCopyToClipboard/UseCopyToClipboard';
 import UseCountDown from './components/useCountDown/UseCountDown';
+import CustomUseBoolean from './components/useBoolean/CustomUseBoolean';
 
 function App() {
   return (
     <div className="App">
       {/* UseBoolean */}
       {/* <UseBoolean /> */}
+      <CustomUseBoolean />
 
       {/* UseClickAnyWhere */}
       {/* <UseClickAnyWhere /> */}
