@@ -10,6 +10,9 @@ import CustomUseClickAnyWhere from './components/useClickAnyWhere/CustomUseClick
 import CustomUseCopyClipboard from './components/useCopyToClipboard/CustomUseCopyClipboard';
 import CustomUseCountDown from './components/useCountDown/CustomUseCountDown';
 import UseCounter from './components/useCounter/UseCounter';
+import CustomUseCounter from './components/useCounter/CustomUseCounter';
+import UseDarkMode from './components/UseDarkMode/UseDarkMode';
+import CustomUseDarkMode from './components/UseDarkMode/CustomUseDarkMode';
 
 function App() {
   return (
@@ -31,7 +34,12 @@ function App() {
       {/* <CustomUseCountDown /> */}
 
       {/* UseCounter */}
-      <UseCounter />
+      {/* <UseCounter /> */}
+      {/* <CustomUseCounter /> */}
+
+      {/* UseDarkMode */}
+      {/* <UseDarkMode /> */}
+      <CustomUseDarkMode />
     </div>
   );
 }
